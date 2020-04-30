@@ -62,3 +62,32 @@ button span {
     width: 118px;
     height: 35px;
 }
+
+.header-logos-wrapper {
+    background-color: lightblue;
+
+}
+
+.header-logos {
+    background-color: lightgreen;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    padding-inline-start: 0px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+.header-logos li{
+    background-color: lightslategrey;
+    margin: 0px 10px;
+    align-items: center;
+    display: flex;
+
+}
+
+.header-logos img{
+
+    height: 23px;
+    width: 23px;
+    margin: 0px 4px 0px 0px;
+}
