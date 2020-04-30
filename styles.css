@@ -107,7 +107,7 @@ button span {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px;
+    padding: 16px 16px 0px 16px;
     border: 1px solid #c7c7c7;
 }
 .form-section-wrapper p{
@@ -117,7 +117,7 @@ button span {
 form {
     background-color: violet;
     margin: 32px 0px;
-    width: 80%;
+    width: 100%;
 }
 
 .form-p {
@@ -128,10 +128,11 @@ fieldset {
     margin: 10px 0;
     display: flex;
     flex-direction: column;
+    border-width: 0px;
 }
 
 .top-input{
-    width: 100%;
+    width: 99%;
     height: 34px;
 }
 
@@ -190,8 +191,34 @@ fieldset p{
 .form-section-footer {
     background-color: orange;
     width: 100%;
-    padding: 16px 0px;
+    padding: 16px 16px;
     border-style: solid;
     border-color: #4c4c4c;
     border-width: 0px 1px 1px 1px;
+    font-size: 12px;
+    text-align: center;
+
+}
+
+/* ------------------------------------------ Footer ------------------------------------------------- */
+footer {
+    background-color: lawngreen;
+}
+
+.anchor-tag-footer {
+    list-style-type: none;
+    
+}
+
+.anchor-tag-footer li{
+    margin: 10px 5px 0px 5px;
+}
+
+footer p {
+    background-color: white;
+    margin: 5px auto;
+    width: 50%;
+    text-align: center;
+    font-size: 12px;
+    font-color: #505050;
 }
