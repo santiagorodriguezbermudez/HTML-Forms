@@ -107,9 +107,8 @@ button span {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 30px;
+    padding: 0px;
     border: 1px solid #c7c7c7;
-    justify-content: stretch;
 }
 .form-section-wrapper p{
 
@@ -191,4 +190,8 @@ fieldset p{
 .form-section-footer {
     background-color: orange;
     width: 100%;
+    padding: 16px 0px;
+    border-style: solid;
+    border-color: #4c4c4c;
+    border-width: 0px 1px 1px 1px;
 }
