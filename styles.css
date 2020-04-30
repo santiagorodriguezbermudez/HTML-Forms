@@ -1,6 +1,35 @@
 /* ---------------------------------------- Document ---------------------------------------------- */
 
-#mainSection {
-    display: block;
+
+
+
+
+/* -------------------------------Nav bar--------------------------------------- */
+.nav-bar {
+    display: flex;
+    justify-content: flex-end;
+    background-color: red;
 }
 
+.nav-wrapper {
+    display: flex;
+    background-color: pink;
+}
+
+.nav-text p{
+    margin: 0;
+}
+
+button {
+    background: #0077C5;
+    border-radius: 4px;
+    border: 1px solid #4c4c4c;
+    color: white;
+    align-items: center;
+    padding: 0 20px;
+    display: flex;
+}
+
+button span {
+    margin-right: 2px;
+}
