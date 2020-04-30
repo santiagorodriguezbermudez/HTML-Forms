@@ -30,7 +30,7 @@
             </div>
         </header>
         <div>
-            <ul>
+            <ul class="header-logos">
                 <li><img src="" alt="mint logo"></li>
                 <li>min</li>
                 <li><img src="" alt="quickbooks logo"></li>
@@ -38,6 +38,44 @@
                 <li><img src="" alt="turbotax logo"></li>
                 <li>turbotax</li>
             </ul>
+        </div>
+
+        <div class="form-section">
+            <h1>Create an intuit account.</h1>
+            <p>One account for everything Intuit, including Mint.</p>
+            <a href="#">Learn More!</a>
+            <form action="#" method="POST" autocomplete="off">
+
+                <fieldset>
+                    <label for="email">
+                        Email Address
+                    </label>
+                    
+                    <input type="email" id="email" name="email" required>
+
+                </fieldset>
+
+                <fieldset>
+                    <label for="phone">
+                        Phone (Recommended)
+                    </label>
+                    
+                    <input type="number" id="phone" name="phone">
+                    <p>Standard call, messaging or data rates may apply.</p>
+                </fieldset>
+
+                <fieldset>
+                    <label for="password">
+                        Password
+                    </label>
+                    
+                    <input type="password" id="password" name="password">
+                    <span class="material-icons">lock_open</span>
+                        
+                </fieldset>
+                
+                <button type="submit"><i class="material-icons">lock</i> Account</button>
+            </form>
         </div>
     </section>
     
