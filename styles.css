@@ -56,4 +56,9 @@ button span {
 /* ----------------------------------------Title------------------------------------------ */
 .header-title {
     background-color: coral;
+    padding: 20px 0px;
+}
+.header-title img {
+    width: 118px;
+    height: 35px;
 }
