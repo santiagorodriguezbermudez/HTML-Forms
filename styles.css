@@ -103,6 +103,8 @@ button span {
     align-items: center;
     padding: 16px 16px 0px 16px;
     border: 1px solid #4c4c4c;
+    border-radius: 3px;
+    border-color:#CBCBCB;
 }
 .form-section-wrapper p{
 
@@ -151,6 +153,7 @@ fieldset {
     border-style: solid;
     border-width: 2px 2px 2px 0px;
     border-color: #ECEEF1;
+    
 }
 fieldset label {
     margin: 10px 0;
@@ -192,7 +195,7 @@ fieldset p{
     width: 100%;
     padding: 16px 16px;
     border-style: solid;
-    border-color: #4c4c4c;
+    border-color:#CBCBCB;
     border-width: 0px 1px 1px 1px;
     font-size: 12px;
     text-align: center;
