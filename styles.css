@@ -1,12 +1,5 @@
 /* ---------------------------------------- Document ---------------------------------------------- */
 
-* {
-    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: normal;
-    margin: 0;
-    padding: 0;
-}
-
 .centered {
     display: flex;
     justify-content: center;
@@ -18,17 +11,23 @@ a{
     font-size: smaller;
 }
 
+body{
+    background-color: #ECEEF1;
+    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
 /* -------------------------------Nav bar--------------------------------------- */
 .nav-bar {
     display: flex;
     justify-content: flex-end;
-    background-color: red;
     padding: 10px 30px;
 }
 
 .nav-wrapper {
     display: flex;
-    background-color: pink;
 }
 
 .nav-text p{
@@ -41,13 +40,13 @@ a{
 }
 
 .header-button {
-    background: #0077C5;
     border-radius: 4px;
     border: 1px solid #4c4c4c;
     color: white;
     align-items: center;
     padding: 0 20px;
     display: flex;
+    background-color: #0077C5;
     
 }
 
@@ -57,7 +56,6 @@ button span {
 
 /* ----------------------------------------Title------------------------------------------ */
 .header-title {
-    background-color: coral;
     padding: 20px 0px;
 }
 .header-title img {
@@ -66,12 +64,10 @@ button span {
 }
 
 .header-logos-wrapper {
-    background-color: lightblue;
 
 }
 
 .header-logos {
-    background-color: lightgreen;
     display: flex;
     list-style-type: none;
     justify-content: space-evenly;
@@ -81,7 +77,6 @@ button span {
     margin-bottom: 20px;
 }
 .header-logos li{
-    background-color: lightslategrey;
     margin: 0px 10px;
     align-items: center;
     display: flex;
@@ -98,24 +93,22 @@ button span {
 
 /* ------------------------------------------ Form ------------------------------------------------- */
 .form-section{
-    background-color: purple;
     margin: 0 auto;
 }
 
 .form-section-wrapper {
-    background-color:yellow;
+    background-color:white;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 16px 16px 0px 16px;
-    border: 1px solid #c7c7c7;
+    border: 1px solid #4c4c4c;
 }
 .form-section-wrapper p{
 
 }
 
 form {
-    background-color: violet;
     margin: 32px 0px;
     width: 100%;
 }
@@ -137,7 +130,6 @@ fieldset {
 }
 
 .input-container {
-    background-color: maroon;
     display: flex;
     width: 100%;
 }
@@ -146,12 +138,19 @@ fieldset {
     width: 100%;
     padding: 10px;
     outline: none;
+    color: #ECEEF1;
+    border-width: 2px 0px 2px 2px;
+    border-style: solid;
+    border-color: #ECEEF1;
 }
 .input-container i{
     padding: 10px;
-    color: #ECEEF1;
+    color: #4c4c4c;
     min-width: 50px;
     text-align: center;
+    border-style: solid;
+    border-width: 2px 2px 2px 0px;
+    border-color: #ECEEF1;
 }
 fieldset label {
     margin: 10px 0;
@@ -189,7 +188,7 @@ fieldset p{
 }
 
 .form-section-footer {
-    background-color: orange;
+    background-color: #ECEEF1;
     width: 100%;
     padding: 16px 16px;
     border-style: solid;
@@ -202,7 +201,6 @@ fieldset p{
 
 /* ------------------------------------------ Footer ------------------------------------------------- */
 footer {
-    background-color: lawngreen;
 }
 
 .anchor-tag-footer {
@@ -215,7 +213,6 @@ footer {
 }
 
 footer p {
-    background-color: white;
     margin: 5px auto;
     width: 50%;
     text-align: center;
