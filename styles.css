@@ -3,11 +3,19 @@
 * {
     font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: normal;
+    margin: 0;
+    padding: 0;
 }
 
 .centered {
     display: flex;
     justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: #0077C5;
+    font-size: smaller;
 }
 
 /* -------------------------------Nav bar--------------------------------------- */
@@ -25,12 +33,6 @@
 
 .nav-text p{
     margin: 0;
-    font-size: smaller;
-}
-
-.nav-text a{
-    text-decoration: none;
-    color: #0077C5;
     font-size: smaller;
 }
 
@@ -76,12 +78,14 @@ button span {
     padding-inline-start: 0px;
     margin-block-start: 0em;
     margin-block-end: 0em;
+    margin-bottom: 20px;
 }
 .header-logos li{
     background-color: lightslategrey;
     margin: 0px 10px;
     align-items: center;
     display: flex;
+    font-size: 22px;
 
 }
 
@@ -90,4 +94,59 @@ button span {
     height: 23px;
     width: 23px;
     margin: 0px 4px 0px 0px;
+}
+
+/* ------------------------------------------ Form ------------------------------------------------- */
+.form-section{
+    background-color: purple;
+    margin: 0 auto;
+}
+
+.form-section-wrapper {
+    background-color:yellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border: 1px solid #c7c7c7;
+}
+
+form {
+    background-color: violet;
+}
+
+.form-p {
+    padding-top: 20px;
+}
+
+fieldset {
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset input{
+    width: 100%;
+    height: 34px;
+}
+
+fieldset label {
+    margin: 10px 0;
+    font-size: smaller;
+}
+
+fieldset p{
+    font-size: 10px;
+}
+
+.form-footer{
+    align-self: center;
+    word-wrap: break-word;
+    justify-content: center;
+}
+
+.form-footer p {
+    font-size: 12px;
+    font-style: italic;
+    text-align: center;
 }

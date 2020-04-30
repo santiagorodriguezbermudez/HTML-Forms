@@ -35,47 +35,50 @@
             </ul>
         </div>
 
-        <div class="form-section">
-            <h1>Create an intuit account.</h1>
-            <p>One account for everything Intuit, including Mint.</p>
-            <a href="#">Learn More!</a>
-            <form action="#" method="POST" autocomplete="off">
+        <div class="form-section centered">
+            <div class="form-section-wrapper">
+                <h1>Create an intuit account.</h1>
+                <p class="form-p">One account for everything Intuit, including Mint.</p>
+                <a href="#">Learn More!</a>
+                <form action="#" method="POST" autocomplete="off">
 
-                <fieldset>
-                    <label for="email">
-                        Email Address
-                    </label>
+                    <fieldset>
+                        <label for="email">
+                            Email Address
+                        </label>
+                        
+                        <input type="email" id="email" name="email" required>
+
+                    </fieldset>
+
+                    <fieldset>
+                        <label for="phone">
+                            Phone (Recommended)
+                        </label>
+                        
+                        <input type="number" id="phone" name="phone">
+                        <p>Standard call, messaging or data rates may apply.</p>
+                    </fieldset>
+
+                    <fieldset>
+                        <label for="password">
+                            Password
+                        </label>
+                        
+                        <i class="material-icons">lock_open</i>
+                        <input type="password" id="password" name="password" >
+                                    
+                    </fieldset>
                     
-                    <input type="email" id="email" name="email" required>
-
-                </fieldset>
-
-                <fieldset>
-                    <label for="phone">
-                        Phone (Recommended)
-                    </label>
+                    <button type="submit"><i class="material-icons">lock</i> Account</button>
+                    <div class="form-footer">
+                        <p>By clicking Create account, you agree to our <br><a href="#">Terms</a> and have read and acknowledge our <a href="#">Privacy Statment</a>.</p>
+                    </div>
                     
-                    <input type="number" id="phone" name="phone">
-                    <p>Standard call, messaging or data rates may apply.</p>
-                </fieldset>
+                </form>
 
-                <fieldset>
-                    <label for="password">
-                        Password
-                    </label>
-                    
-                    <i class="material-icons">lock_open</i>
-                    <input type="password" id="password" name="password" >
-                                
-                </fieldset>
-                
-                <button type="submit"><i class="material-icons">lock</i> Account</button>
-            </form>
-
-            <p>By clicking Create account, you agree to our <a href="#">Terms</a> and have read and acknowledge our <a href="#">Privacy Statment</a>.</p>
-
-            <p>Invisible reCAPTCHA by Google <a href='#'>Privacy Policy</a> and <a href="#">Terms of Use</a>.</p>
-
+                <p>Invisible reCAPTCHA by Google <a href='#'>Privacy Policy</a> and <a href="#">Terms of Use</a>.</p>
+            </div>
         </div>
     </section>
 
