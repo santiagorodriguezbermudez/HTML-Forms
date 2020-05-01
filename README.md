@@ -2,9 +2,9 @@
 
 > Replicate the signup webpage of mint.com
 
-![screenshot]()
+![screenshot](img/screenshot.png)
 
-This project consists of builThis project consists of building an HTML document that matches the appearance of mint.com’s signup page
+This project consists of building an HTML document that matches the appearance of mint.com’s signup page.
 
 ## Built With
 
@@ -13,7 +13,7 @@ This project consists of builThis project consists of building an HTML document 
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://raw.githack.com/santiagorodriguezbermudez/HTML-Forms/signup-form/index.html)
 
 
 ## Authors
