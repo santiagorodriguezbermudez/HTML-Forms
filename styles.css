@@ -1,218 +1,219 @@
 /* ---------------------------------------- Document ---------------------------------------------- */
 .centered {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 a {
-    text-decoration: none;
-    color: #0077c5;
-    font-size: smaller;
+  text-decoration: none;
+  color: #0077c5;
+  font-size: smaller;
 }
 
 body {
-    background-color: #eceef1;
-    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: normal;
-    margin: 0;
-    padding: 0;
+  background-color: #eceef1;
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
 }
 
 /* -------------------------------Nav bar--------------------------------------- */
 .nav-bar {
-    display: flex;
-    justify-content: flex-end;
-    padding: 10px 30px;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10 30;
 }
 
 .nav-wrapper {
-    display: flex;
+  display: flex;
 }
 
 fieldset p {
-    font-size: 10px;
+  font-size: 10;
+}
+
+footer p {
+  margin: 5px auto;
+  width: 40;
+  text-align: center;
+  font-size: 12px;
+  color: #505050;
 }
 
 .nav-text p {
-    margin: 0;
-    font-size: smaller;
+  margin: 0;
+  font-size: smaller;
 }
 
 .nav-text {
-    margin-right: 15px;
+  margin-right: 15px;
 }
 
 .header-button {
-    border-radius: 4px;
-    border: 1px solid #4c4c4c;
-    color: white;
-    align-items: center;
-    padding: 0 20px;
-    display: flex;
-    background-color: #0077c5;
+  border-radius: 4px;
+  border: 1px solid #4c4c4c;
+  color: white;
+  align-items: center;
+  padding: 0 20;
+  display: flex;
+  background-color: #0077c5;
 }
 
 button span {
-    margin-right: 2px;
+  margin-right: 2px;
 }
 
 /* ----------------------------------------Title------------------------------------------ */
 .header-title {
-    padding: 20px 0px;
+  padding: 20 0;
 }
+
 .header-title img {
-    width: 118px;
-    height: 35px;
+  width: 118px;
+  height: 35px;
 }
 
 .header-logos {
-    display: flex;
-    list-style-type: none;
-    justify-content: space-evenly;
-    padding-inline-start: 0px;
-    margin-block-start: 0em;
-    margin-block-end: 0em;
-    margin-bottom: 20px;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+  padding-inline-start: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-bottom: 20;
 }
 
 .header-logos li {
-    margin: 0px 10px;
-    align-items: center;
-    display: flex;
-    font-size: 22px;
+  margin: 0 10;
+  align-items: center;
+  display: flex;
+  font-size: 22px;
 }
 
 .header-logos img {
-    height: 23px;
-    width: 23px;
-    margin: 0px 4px 0px 0px;
+  height: 23px;
+  width: 23px;
+  margin: 0 4px 0 0;
 }
 
 /* ------------------------------------------ Form ------------------------------------------------- */
 .form-section {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 .form-section-wrapper {
-    background-color:white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 16px 16px 0px 16px;
-    border: 1px solid #4c4c4c;
-    border-radius: 3px;
-    border-color:#cbcbcb;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 16px 0 16px;
+  border: 1px solid #4c4c4c;
+  border-radius: 3px;
+  border-color: #cbcbcb;
 }
 
 .form-section-wrapper h1 {
-    color: #4c4c4c;
-    font-weight: 400;
-    margin-bottom: 0%;
+  color: #4c4c4c;
+  font-weight: 400;
+  margin-bottom: 0;
 }
 
 form {
-    margin: 0px 0px 32px;
-    width: 100%;
+  margin: 0 0 32px;
+  width: 100;
 }
 
 .form-p {
-    padding-top: 10px;
+  padding-top: 10;
 }
 
 fieldset {
-    margin: 10px 0;
-    display: flex;
-    flex-direction: column;
-    border-width: 0px;
+  margin: 10 0;
+  display: flex;
+  flex-direction: column;
+  border-width: 0;
 }
 
 .top-input {
-    width: 95%;
-    height: 42px;
-    border: solid 2px #eceef1;
-    padding-left: 10px;
-    outline: none;
+  width: 95%;
+  height: 42px;
+  border: solid 2px #eceef1;
+  padding-left: 10;
+  outline: none;
 }
 
 .input-container {
-    display: flex;
-    width: 100%;
+  display: flex;
+  width: 100;
 }
 
 .input-container input {
-    width: 100%;
-    padding: 10px;
-    outline: none;
-    border-width: 2px 0px 2px 2px;
-    border-style: solid;
-    border-color: #eceef1;
+  width: 100;
+  padding: 10;
+  outline: none;
+  border-width: 2px 0 2px 2px;
+  border-style: solid;
+  border-color: #eceef1;
 }
 
 .input-container i {
-    padding: 10px;
-    color: #4c4c4c;
-    min-width: 50px;
-    text-align: center;
-    border-style: solid;
-    border-width: 2px 2px 2px 0px;
-    border-color: #eceef1;
+  padding: 10;
+  color: #4c4c4c;
+  min-width: 50;
+  text-align: center;
+  border-style: solid;
+  border-width: 2px 2px 2px 0;
+  border-color: #eceef1;
 }
 
 fieldset label {
-    margin: 10px 0;
-    font-size: smaller;
+  margin: 10 0;
+  font-size: smaller;
 }
 
 .form-footer {
-    align-self: center;
-    word-wrap: break-word;
-    justify-content: center;
+  align-self: center;
+  word-wrap: break-word;
+  justify-content: center;
 }
 
 .form-footer p {
-    font-size: 12px;
-    font-style: italic;
-    text-align: center;
+  font-size: 12px;
+  font-style: italic;
+  text-align: center;
 }
 
 .submit-button {
-    display: flex;
-    padding: 6px 12px;
-    margin: 25px auto;
-    width: 100%;
-    background: #0077c5;
-    border-radius: 4px;
-    border: 1px solid #4c4c4c;
-    color: white;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  padding: 6px 12px;
+  margin: 25px auto;
+  width: 100;
+  background: #0077c5;
+  border-radius: 4px;
+  border: 1px solid #4c4c4c;
+  color: white;
+  justify-content: center;
+  align-items: center;
 }
 
 .form-section-footer {
-    background-color: #eceef1;
-    width: 100%;
-    padding: 16px 16px;
-    border-style: solid;
-    border-color:#cbcbcb;
-    border-width: 0px 1px 1px 1px;
-    font-size: 12px;
-    text-align: center;
+  background-color: #eceef1;
+  width: 100;
+  padding: 16px 16px;
+  border-style: solid;
+  border-color: #cbcbcb;
+  border-width: 0 1px 1px 1px;
+  font-size: 12px;
+  text-align: center;
 }
 
 /* ------------------------------------------ Footer ------------------------------------------------- */
 
 .anchor-tag-footer {
-    list-style-type: none;
+  list-style-type: none;
 }
 
-.anchor-tag-footer li{
-    margin: 10px 5px 0px 5px;
-}
-
-footer p {
-    margin: 5px auto;
-    width: 40%;
-    text-align: center;
-    font-size: 12px;
-    color: #505050;
+.anchor-tag-footer li {
+  margin: 10 5px 0 5px;
 }
