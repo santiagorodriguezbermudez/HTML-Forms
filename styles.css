@@ -7,7 +7,7 @@
 a {
   text-decoration: none;
   color: #0077c5;
-  font-size: smaller;
+  font-size: 12px;
 }
 
 body {
@@ -22,7 +22,7 @@ body {
 .nav-bar {
   display: flex;
   justify-content: flex-end;
-  padding: 10 30;
+  padding: 10px 30px;
 }
 
 .nav-wrapper {
@@ -30,7 +30,7 @@ body {
 }
 
 fieldset p {
-  font-size: 10;
+  font-size: 10px;
 }
 
 footer p {
@@ -55,18 +55,20 @@ footer p {
   border: 1px solid #4c4c4c;
   color: white;
   align-items: center;
-  padding: 0 20;
+  padding: 0px 20px;
   display: flex;
   background-color: #0077c5;
+  cursor: pointer;
 }
 
 button span {
   margin-right: 2px;
+  font-size: 16px;
 }
 
 /* ----------------------------------------Title------------------------------------------ */
 .header-title {
-  padding: 20 0;
+  padding: 20px 0px;
 }
 
 .header-title img {
@@ -81,14 +83,14 @@ button span {
   padding-inline-start: 0;
   margin-block-start: 0;
   margin-block-end: 0;
-  margin-bottom: 20;
+  margin-bottom: 20px;
 }
 
 .header-logos li {
-  margin: 0 10;
-  align-items: center;
   display: flex;
+  align-items: center;
   font-size: 22px;
+  margin: 0px 10px;
 }
 
 .header-logos img {
@@ -100,16 +102,19 @@ button span {
 /* ------------------------------------------ Form ------------------------------------------------- */
 .form-section {
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: 20%;
 }
 
 .form-section-wrapper {
-  background-color: white;
   display: flex;
   flex-direction: column;
+  background-color: white;
   align-items: center;
   padding: 16px 16px 0 16px;
   border: 1px solid #4c4c4c;
-  border-radius: 3px;
+  border-width: 1px 1px 0px 1px;
   border-color: #cbcbcb;
 }
 
@@ -117,64 +122,54 @@ button span {
   color: #4c4c4c;
   font-weight: 400;
   margin-bottom: 0;
+  font-size: 24px;
 }
 
 form {
-  margin: 0 0 32px;
-  width: 100;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 .form-p {
-  padding-top: 10;
+  padding-top: 10px;
+  margin-block-end: 0.5em;
+  font-size: 14px;
+  color: #4c4c4c;
 }
 
 fieldset {
-  margin: 10 0;
+  margin: 10px 0px;
   display: flex;
   flex-direction: column;
+  position: relative;
   border-width: 0;
 }
 
+fieldset i {
+  position: absolute;
+  top: 48%;
+  right: 6%;
+  color: #c7c7cd;
+}
+
 .top-input {
-  width: 95%;
-  height: 42px;
+  width: 87%;
+  height: 30px;
   border: solid 2px #eceef1;
-  padding-left: 10;
+  padding-left: 2%;
+  padding-right: 10%;
   outline: none;
-}
-
-.input-container {
-  display: flex;
-  width: 100;
-}
-
-.input-container input {
-  width: 100;
-  padding: 10;
-  outline: none;
-  border-width: 2px 0 2px 2px;
-  border-style: solid;
-  border-color: #eceef1;
-}
-
-.input-container i {
-  padding: 10;
-  color: #4c4c4c;
-  min-width: 50;
-  text-align: center;
-  border-style: solid;
-  border-width: 2px 2px 2px 0;
-  border-color: #eceef1;
+  margin: 0em;
 }
 
 fieldset label {
-  margin: 10 0;
+  margin-bottom: 3%;
   font-size: smaller;
 }
 
 .form-footer {
-  align-self: center;
-  word-wrap: break-word;
+  display: flex;
   justify-content: center;
 }
 
@@ -182,38 +177,79 @@ fieldset label {
   font-size: 12px;
   font-style: italic;
   text-align: center;
+  color: #757575;
+  margin-bottom: 32px;
+  margin-top: 32px;
+  width: 90%;
+  line-height: 150%;
 }
 
 .submit-button {
   display: flex;
-  padding: 6px 12px;
-  margin: 25px auto;
-  width: 100;
+  padding: 10px 12px;
+  margin: 4% auto;
+  width: 95%;
   background: #0077c5;
   border-radius: 4px;
-  border: 1px solid #4c4c4c;
+  border: 0px solid #4c4c4c;
   color: white;
   justify-content: center;
   align-items: center;
+  box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.75);
+  cursor: pointer;
 }
 
 .form-section-footer {
   background-color: #eceef1;
-  width: 100;
   padding: 16px 16px;
   border-style: solid;
   border-color: #cbcbcb;
   border-width: 0 1px 1px 1px;
-  font-size: 12px;
+  font-size: 10px;
   text-align: center;
+  color: #8d9096;
+}
+.form-section-footer a {
+  font-size: 10px;
 }
 
 /* ------------------------------------------ Footer ------------------------------------------------- */
 
 .anchor-tag-footer {
   list-style-type: none;
+  padding-inline-start: 0px;
+  margin-block-end: 0em;
 }
 
 .anchor-tag-footer li {
-  margin: 10 5px 0 5px;
+  margin: 0px 5px 0 5px;
+  font-style: none;
+}
+.anchor-tag-footer a {
+  color: black;
+}
+.anchor-tag-footer a:hover {
+  text-decoration: underline;
+}
+
+/* ------------------------------------------ Floating Widget ------------------------------------------------- */
+.bottom-widget {
+  display: block;
+  position: fixed;
+  bottom: 0px;
+  right: 5%;
+  font-family: inherit;
+  font-size: 14px;
+  background-color: #6B6C72;
+  border-radius: 3px;
+  z-index: 100;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.bottom-widget div {
+  padding: 10px 12px;
+  vertical-align: middle;
+  color: #fff;
+  float: left;
 }
