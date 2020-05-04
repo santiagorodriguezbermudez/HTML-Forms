@@ -219,6 +219,10 @@ fieldset label {
 }
 
 /* ------------------------------------------ Footer ------------------------------------------------- */
+footer {
+  color: #505050;
+  padding: 20px 0;
+}
 
 .anchor-tag-footer {
   list-style-type: none;
@@ -232,7 +236,7 @@ fieldset label {
 }
 
 .anchor-tag-footer a {
-  color: black;
+  color: #505050;
 }
 
 .anchor-tag-footer a:hover {
